@@ -3,9 +3,9 @@
 
 def display_board(board)
   puts display_row(board, 0)
-  puts divider
+  puts "-----------"
   puts display_row(board, 1)
-  puts divider
+  puts "-----------"
   puts display_row(board, 2)
 end
 
