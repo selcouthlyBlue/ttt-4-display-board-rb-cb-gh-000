@@ -10,5 +10,5 @@ def display_board(board, divider="-----------")
 end
 
 def display_row(board, row_number)
-  puts " #{board[3 * row_number]}| #{board[3 * row_number + 1]}| #{board[3 * row_number + 2]}"
+  puts " #{board[3 * row_number]} | #{board[3 * row_number + 1]} | #{board[3 * row_number + 2]} "
 end
