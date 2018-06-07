@@ -6,5 +6,5 @@ def display_board(board)
 end
 
 def display_row(board, row_number)
-  puts " #{board[0]} |  #{board[1]} | #{board[2]} "
+  puts " #{board[0 + 3 * row_number]} |  #{board[1 + 3 * row_number]} | #{board[2 + 3 * row_number]} "
 end
