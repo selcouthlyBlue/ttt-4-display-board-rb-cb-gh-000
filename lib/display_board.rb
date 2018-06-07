@@ -2,11 +2,11 @@
 # out the current state.
 
 def display_board(board)
-  puts display_row(board, 0)
+  display_row(board, 0)
   puts "-----------"
-  puts display_row(board, 1)
+  display_row(board, 1)
   puts "-----------"
-  puts display_row(board, 2)
+  display_row(board, 2)
 end
 
 def display_row(board, row_number)
