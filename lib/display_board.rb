@@ -4,6 +4,10 @@
 def display_board(board, divider="-----------")
   puts display_row(board, 0)
   puts divider
+  puts display_row(board, 1)
+  puts divider
+  puts display_row(board, 2)
+  puts divider
 end
 
 def display_row(board, row_number)
