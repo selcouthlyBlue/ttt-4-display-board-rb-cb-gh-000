@@ -1,7 +1,7 @@
 # Define display_board that accepts a board and prints
 # out the current state.
 
-def display_board(board)
+def display_board(board, divider="-----------")
   display_row(board, 0)
   puts "-----------"
   display_row(board, 1)
